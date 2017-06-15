@@ -20,6 +20,9 @@ If you want to report an issue that is occuring with Emerald, you can report the
 # Developers
 FactoDoesStuff
 
+# Discord
+Our official Discord is https://discord.gg/2geFBrk.
+
 # Contacts
 
-Have any questions? My Discord is FactoDoesStuff#3013 and my Skype is FactoDoes TheStuff.
+Have any questions? My Discord is FactoDoesStuff#3013 and my Skype is FactoDoes TheStuff. 
