@@ -13,8 +13,6 @@ If you want to report an issue that is occuring with Emerald, you can report the
 # Extras
 - I use Visual Studio Code for my coding and starting of the bot.
 
-- Surprisingly, I use my late 2013 MacBook Pro instead of my main custom-built Windows PC for coding. This is because it doesn't like code that much and just won't shut on on my Windows PC. 
-
 - Emerald runs purely off of JavaScript and discord.js.
 
 - Emerald's code doesn't include its token. Well, at least in this Github it doesn't. I don't want people hacking my freaking bot! 
