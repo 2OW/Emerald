@@ -17,6 +17,8 @@ If you want to report an issue that is occuring with Emerald, you can report the
 
 - Emerald runs purely off of JavaScript and discord.js.
 
+- Emerald's code doesn't include its token. Well, at least in this Github it doesn't. I don't want people hacking my freaking bot! 
+
 # Developers
 FactoDoesStuff
 
