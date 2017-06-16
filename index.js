@@ -11,10 +11,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
     var args = message.content.split(/[ ]+/);
-    if(commandIs("hello", message))
+    if(message.content.startsWith(! + "ping", message)) {
         message.channel.send('I forget what it is, ' + message.author.username);
-    }) 
-    if(commandIs("age", )){
+    } 
+    if(message.content.startsWith(! + "age", message )){
         if(args.length === 1){
             message.reply('Now how am I supposed to follow your wish if I do not have any args?! Usage: `!age [Age Value]`');
         } else if(args.length === 2){
@@ -23,7 +23,7 @@ client.on('message', message => {
             message.reply('Okay, look buddy, you got the right idea here, however, YOU PUT TOO MANY OF THEM! REALLY?! You put a number next to the command, is it that complicated?')
         }
     }
-    if(commandIs("say", message)){
+    if(message.content.startsWith(! + "say", message)){
         if(args.length === 1){
             message.reply('It seems I never got what to say! Usage: `!say [message]`')
         } else { 
@@ -32,4 +32,4 @@ client.on('message', message => {
     } 
 });
 
-client.login('No');
+client.login('MzE0NDg4MzcyMjY3ODQzNjA1.DCOZrQ.GzYRMH0LpgkargQseGO3T1ovqoA');
