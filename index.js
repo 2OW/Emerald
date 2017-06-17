@@ -5,6 +5,18 @@ function commandIs(str, msg){
     return msg.content.toLowerCase().startsWith("!" + str);
 }
 
+function pluck(array) {
+    return array.map(function(item) { return item["name"]; });
+}
+
+function hasRole(mem, role) {
+    if(pluck(mem.roles).includes(role)){
+        return true;
+    } else {
+        return false;
+    }
+}
+
 client.on('ready', () => {
     console.log('Ready to work, boss!')
 });
@@ -24,8 +36,9 @@ client.on('message', message => {
         }
     }
     if(message.content.startsWith(! + "say", message)){
-        if(args.length === 1){
-            message.reply('It seems I never got what to say! Usage: `!say [message]`')
+        if(hasRole(message.member, "<moderator role>"))
+            if(args.length === 1){
+                message.reply('It seems I never got what to say! Usage: `!say [message]`')
         } else { 
             message.channel.send(args.join(" ").substring(5));
         }
